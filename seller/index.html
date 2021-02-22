@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/materialize.min.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <title>Sellers Panel</title>
+</head>
+<body>
+    <nav class="blue accent-1">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+    </nav>
+    <ul id="slide-out" class="sidenav sidenav-fixed sidenav-close">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="/images/sidenav.jpg">
+                </div>
+                <a href="#user">
+                    <i class="material-icons circle medium black-text" id="iconPic">account_circle</i>
+                    <img class="circle hide" id="profilePic">
+                </a>
+                <a href="#name" class="center-align">
+                    <span class="black-text name">John Doe</span>
+                </a>
+                <a href="#email" class="center-align">
+                    <span class="black-text email">jdandturk@gmail.com</span>
+                </a>
+            </div>
+        </li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">dashboard</i>Dashboard</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">local_offer</i>My Items</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">credit_card</i>Payments</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Account Settings</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons">account_circle</i>My Profile</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" href="#!"><i class="material-icons">exit_to_app</i>Logout</a></li>
+    </ul>
+<script src="/scripts/jquery.min.js"></script>
+<script src="/scripts/materialize.min.js"></script>
+<script src="/scripts/sellers.js"></script>
+</body>
+</html>

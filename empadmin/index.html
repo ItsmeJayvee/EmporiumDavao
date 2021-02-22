@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/materialize.min.css">
+    <title>Admin Login</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col m4 l4"></div>
+        <div class="col s12 m4 l4">
+            <div class="card">
+                <div class="card-content container">
+                    <div class="row">
+                        <div class="input-field col s12 m12 l12 center-align">
+                            <h5>Admin Login</h5>
+                        </div>
+                        <div class="input-field col s12 m12 l12">
+                            <i class="material-icons prefix">email</i>
+                            <input type="text" name="email" id="email" class="validate">
+                            <label for="email">Email</label>
+                            <h6 class="red-text center-align hide" style="font-size: small;" id="emailReq">Email field is required!</h6>
+                        </div>
+                        <div class="input-field col s12 m12 l12">
+                            <i class="material-icons prefix">lock_open</i>
+                            <input type="password" name="password" id="password" class="validate">
+                            <label for="password">Password</label>
+                            <h6 class="red-text center-align hide" style="font-size: small;" id="emailReq">Password field is required!</h6>
+                        </div>
+                        <div class="input-field col s12 m12 l12 center-align">
+                            <button class="btn waves-effect waves-light blue accent-1 black-text">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col m4 l4"></div>
+    </div>
+<script src="/scripts/jquery.min.js"></script>
+<script src="/scripts/materialize.min.js"></script>
+</body>
+</html>
